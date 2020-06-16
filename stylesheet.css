@@ -1,0 +1,1800 @@
+body
+{
+    background-color: white;
+    font-family: 'microsoft sans serif';
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+
+}
+
+
+/* Returning code that Calum's relied on */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* -------------- CSS for the log in box at the top of the page -------------- */
+
+.lOtop /* Class that defines the CSS for top section holding the log in form*/
+{
+    height: 40px;
+    outline: none;
+    font-family: "Arial Black", Arial, sans-serif;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.formHolder /* Class for div around log in form */
+{
+    height: 30px;
+    padding: 10px;
+    width: 25%;
+    outline: none;
+    position: relative;
+    float: right;
+}
+
+#loginForm /* ID for log in form */
+{
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    font-size: xx-small;
+    outline: black solid 1px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+#loginForm:hover /* Mouse hover on log in form */
+{
+    background-color: #bebebe;
+    font-size: xx-small;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+
+#loginForm .formInput /* Input elements in log in form */
+ {
+     width: 60px;
+ }
+
+#logOutForm /* ID for log out form */
+{
+    background-color: white;
+    border-radius: 5px;
+    font-size: xx-small;
+    outline: black solid 1px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+#logOutForm:hover /* Mouse hover on log out for */
+{
+    background-color: #bebebe;
+    font-size: xx-small;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+/*.logOutForm .logOutButt
+{
+} */
+
+
+/*NAVBAR*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+    border-radius: 5px;
+}
+
+.navButt {
+  float: left;
+  border-right: 1px solid white;
+}
+
+
+.navButt a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ font-family: 'microsoft sans serif';
+}
+
+.navButt a:hover
+{
+    background-color: #1ed760;
+}
+
+.createGuestButt
+{
+    padding: 6px 12px;
+    display: block;
+    float: right;
+    background-color: #1ed760;
+    margin-right: 20px;
+    margin-top: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.createGuestButt a
+{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'microsoft sans serif';
+    color: white;
+}
+
+.createGuestButt:hover
+{
+
+    background-color: #301180;
+
+}
+
+/* FOOTER */
+.footer {
+    margin-top: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    z-index: 999;
+}
+
+/* ------------- Calums Classes ------------- */
+
+.trancTenantMain
+{
+    width: 100%;
+    height: 550px;
+}
+
+.trancTenantDashHolder
+{
+    background-color: #333333;
+    border: solid 1px #333333;
+    border-radius: 25px;
+    width: 100%;
+    height: 250px;
+    box-shadow: 5px 5px 10px #333333;
+}
+
+.trancTenantDashHolder #transNameArrows1
+{
+    opacity: 0;
+}
+
+.trancTenantDashHolder #transNameArrows2
+{
+    opacity: 0;
+}
+
+.trancTenantDashHolder #transNameArrows3
+{
+    opacity: 0;
+}
+
+.trancTenantDashHolder #transNameArrows4
+{
+    opacity: 0;
+}
+
+.trancTenantDashHolder:hover
+{
+    background-color: #1ed760;
+    border: solid 1px #1ed760;
+    box-shadow: none;
+}
+
+.trancTenantDashHolder:hover #transNameArrows1
+{
+    opacity: 1;
+}
+
+.trancTenantDashHolder:hover #transNameArrows2
+{
+    opacity: 1;
+}
+
+.trancTenantDashHolder:hover #transNameArrows3
+{
+    opacity: 1;
+}
+
+.trancTenantDashHolder:hover #transNameArrows4
+{
+    opacity: 1;
+}
+
+.trancTenantDashHolder2
+{
+    border: solid 1px white;
+    border-radius: 20px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    height: 240px;
+    background-color: white;
+}
+
+
+.trancTenantDashHolder a
+{
+    color: #333333;
+    text-decoration: none;
+}
+
+.trancTenantHolder tr
+{
+    background-color: white;
+}
+
+.trancTenantHolder td
+{
+    border: none;
+}
+
+.trancTenantHolder
+{
+    border: none;
+}
+
+.trancTenantDashName
+{
+    font-family: 'microsoft sans serif';
+    margin-top: -2px;
+    margin-left: -2px;
+    border: solid #333333 1px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #333333;
+    color: white;
+    height: 30px;
+    width: 25%;
+}
+
+.trancTenantDashHolderLeft
+{
+    background-color: transparent;
+    width: 100%;
+    height: 180px;
+    border-right: #333333 solid 1px;
+}
+
+.trancTenantDashHolderMain
+{
+    background-color: transparent;
+    width: 100%;
+    height: 180px;
+}
+
+.trancTenantYearHolder
+{
+    width: 30%;
+    height: 30px;
+    margin-top: -30px;
+    float: right;
+}
+
+.trancYearLeftArrow
+{
+    color: #333333;
+    margin-top: -2px;
+    height: 30px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.trancYearLeftArrow:hover
+{
+    color: #1ed760;
+}
+
+.trancYearMain
+{
+    color: #333333;
+    height: 30px;
+    width: 20%;
+    margin-left: 16%;
+    margin-top: -23px;
+}
+
+
+.trancYearRightArrow
+{
+    cursor: pointer;
+    color: #333333;
+    height: 30px;
+    width: 10%;
+    margin-left: 40%;
+    margin-top: -37px;
+}
+
+.trancYearRightArrow:hover
+{
+    color: #1ed760;
+}
+
+.trancTenantPaymentMainHolder
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.trancTenantPaymentSwitch
+{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.trancTenantPaymentSwitch input
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.trancTenantPaymentSlider
+{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333333;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.trancTenantPaymentSlider:before
+{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #1ed760;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .trancTenantPaymentSlider
+{
+    background-color: #1ed760;
+}
+
+
+input:checked + .trancTenantPaymentSlider:before
+{
+    background-color: #333333;
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.trancTenantPaymentSlider {
+    border-radius: 34px;
+}
+
+.trancTenantPaymentSlider:before {
+    border-radius: 50%;
+}
+
+.trancPaymentPageRentHolder
+{
+    border: solid 1px black;
+    border-left: none;
+    width: 40%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    text-align: center;
+}
+
+.trancPaymentUtilRentHolder
+{
+    float: right;
+    border: solid 1px black;
+    border-right: none;
+    width: 40%;
+    margin-top: -2px;
+    margin-right: -8px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    text-align: center;
+}
+
+.trancTenantAmountInput
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px black;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.trancTenantAmountInput:focus
+{
+    outline-width: 0;
+    border: solid 2px #1ed760;
+}
+
+.trancTenantFormSubmit
+{
+    background-color: #333333;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.trancTenantFormSubmit:hover
+{
+    background-color: #1ed760;
+}
+
+.trancTenantFormSubmit:focus
+{
+    outline-width: 0;
+}
+
+.trancTenantReturnButt
+{
+    font-family: 'microsoft sans serif';
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    background-color: #333333;
+    border-radius: 15px;
+}
+
+.trancTenantReturnButt:hover
+{
+    background-color: #1ed760;
+}
+
+.trancTenantRentInTable td
+{
+    height: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.trancTenantRentInTable
+{
+    border-collapse: collapse;
+    background-color: transparent;
+    width:100%;
+}
+
+
+.tranTenantRentPaymentButt
+{
+    background-color: #333333;
+    padding: 5px 20px;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.tranTenantRentPaymentButt:hover
+{
+    background-color: #1ed760;
+}
+
+.tranTenantRentReturnButt
+{
+    background-color: #333333;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.tranTenantRentReturnButt:hover
+{
+    background-color: #1ed760;
+}
+
+.trancTenantRentYearHolder
+{
+    width: 30%;
+    height: 30px;
+    float: left;
+}
+
+.trancTenantRentTable td
+{
+    width: 50%;
+    height: 200px;
+    border-collapse: collapse;
+    border: none;
+    background-color: transparent;
+}
+
+.trancTenantRentTable tr
+{
+    border-collapse: collapse;
+    border: none;
+    background-color: transparent;
+}
+
+.trancTenantRentTable
+{
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+}
+
+.trancTenantRentHistoryTableCont
+{
+    width: 100%;
+    height: 180px;
+    overflow: scroll;
+}
+
+.trancTenantRentHistoryTable td
+{
+    height: 0;
+    border: none;
+}
+
+.trancTenantRentHistoryTable th
+{
+    height: 0;
+    border: none;
+}
+
+.trancTenantRentHistoryTable
+{
+    border-collapse: collapse;
+}
+
+.trancTenantUpcomingHolder
+{
+    background-color: #333333;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.trancTenantUpcomingHolder:hover
+{
+    background-color: #1ed760;
+}
+
+.trancLandlordRentSelector
+{
+    width: 100%;
+    height: 30px;
+    border: solid 1px #333333;
+
+}
+
+.trancLandlordRentSelector:hover
+{
+    background-color: #333333;
+    color: white;
+}
+
+
+/* ------------- Bens Classes ------------- */
+.accManagment {
+    text-align: center;
+}
+
+.accManagment a {
+    color: #1ed760;
+}
+
+.accManagment .Button{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.accManagment .Button:hover{
+    background-color: #1ed760;
+}
+
+/* Account Creation */
+
+.createAccount {
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    font: 20px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.createNewAdmin {
+    display: none;
+}
+
+.createNewLandlord {
+    display: none;
+}
+
+.createNewTenant {
+    display: none;
+}
+
+.createNewGuest {
+    display: none;
+}
+
+.create-container {
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+.create-container input[type=text], .create-container input[type=password] {
+    width: 95%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.create-container input[type=text]:focus, .create-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.create-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin:10px;
+}
+
+.create-container .cancel {
+    background-color: red;
+}
+
+/* View All Accounts */
+
+.allAccounts{
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    margin-bottom: 50px;
+}
+
+.allAccounts .cancel {
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin:10px;
+}
+
+.allAccounts .viewAllAdmins {
+    display: none;
+}
+
+.allAccounts .viewAllLandlords {
+    display: none;
+}
+
+.allAccounts .viewAllTenants {
+    display: none;
+}
+
+.allAccounts .viewAllGuests {
+    display: none;
+}
+
+.allAccounts table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.allAccounts td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.allAccounts tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Edit Account */
+
+.editAccount {
+    display: none;
+    z-index: 9;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.editAccount .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    margin:10px;
+}
+
+.editAccount .cancel {
+    background-color: red;
+}
+
+.editAccount table {
+    border-collapse: collapse;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editAccount input[type=text], .editAccount input[type=password]{
+    width: 100%;
+    border: none;
+    color:black;
+}
+
+.editAccount td, .editAccount th {
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.editAccount tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Email System */
+.emailSystem {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.emailSystem .Button{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.emailSystem .Button:hover{
+    background-color: #1ed760;
+}
+
+.emailSystem .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    margin:10px;
+}
+
+.emailSystem .cancel {
+    background-color: red;
+}
+
+.emailSystem .sendToAll {
+    display: none;
+}
+
+.emailSystem .sendToSpec {
+    display: none;
+}
+
+.emailSystem .sendToProp {
+    display: none;
+}
+
+.emailSystem .sendToIndiv {
+    display: none;
+}
+
+.emailSystem .sendToIndiv .selector {
+    border-style: solid;
+    width: 45%;
+    margin-bottom: 55px;
+    float: left;
+}
+
+.emailSystem .sendToIndiv .message {
+    border-style: solid;
+    width: 45%;
+    margin-bottom: 55px;
+    float: right;
+}
+
+.chooseFromAdmins {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.chooseFromLandlords {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.chooseFromTenants {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.chooseFromGuests {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.emailSystem input[type=text], .emailSystem input[type=password] {
+    width: 80%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.emailSystem .sendMail {
+    background-color: #4CAF50;  
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin:10px;
+}
+
+.selectcss {
+	font-size: 16px;
+	font-weight: 700;
+	color: #444;
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	width: 80%;
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	border-radius: .5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.selectcss::-ms-expand {
+	display: none;
+}
+.selectcss:hover {
+	border-color: #888;
+}
+.selectcss:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.selectcss option {
+	font-weight:normal;
+}
+
+.emailSystem textarea{
+    width: 80%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-family: 'microsoft sans serif', Times, serif;
+}
+
+/* Delete Account */
+.deleteAccount {
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.deleteAccount .true h3{
+    color: green;
+}
+
+.deleteAccount .false h3{
+    color: red;
+}
+
+.deleteAccount .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    margin:10px;
+}
+
+.deleteAccount .cancel {
+    background-color: red;
+}
+
+.deleteAccount .delete {
+    background-color: darkred;
+}
+
+.deleteAccount .deleteFinal {
+    display: none;
+    padding-bottom: 10px;
+}
+
+/* Matt CSS */
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.view {
+    height: 285px;
+    width: 100%;
+}
+
+.myPropertyView {
+    height: 475px;
+    width: 100%;
+}
+
+.PropertyImageContainer {
+    float:right;
+    position: relative;
+    width: 40%;
+    margin-right: 2%;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    margin-bottom: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 3.5%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #333333;
+    font-size: 16px;
+    padding: 6% 2%;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.propertyCaption {
+    text-align: center;
+    background-color: #1ed760;
+    padding: 2px 16px;
+    color: white;
+}
+
+.propertyRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.propertyColumn {
+    float: left;
+    width: 150px;
+    height: 100px;
+
+}
+
+/* Add a transparency effect for thumbnail images */
+.propertySlideshow {
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    min-width: 25%;
+}
+
+.active,
+.slideshow:hover {
+    opacity: 1;
+}
+
+.indexPropertyDiv {
+    width: 100%;
+    margin: 20px 0 75px 0;
+}
+
+.indexPropertyDetails {
+    float:left;
+    position: relative;
+    width: 20%;
+    margin: 15px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 620px;
+}
+
+.indexPropertyImage {
+    width:100%;
+    height: 290px;
+}
+
+.propertyDetails {
+    width: 50%;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.propertyDetailList {
+    float: left;
+    width: 40%;
+    color: white;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #333333;
+    border-color: #333333;
+    height: 120px;
+}
+
+.landlordDetails {
+    float: right;
+    width: 54%;
+    color: white;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #333333;
+    border-color: #333333;
+    height: 120px;
+}
+
+.tenantDetails {
+    width: 51%;
+    height: 370px;
+    margin-bottom: 100px;
+
+}
+
+.tenantDetailList {
+    float: left;
+    width: 45%;
+    color: white;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #333333;
+    border-color: #333333;
+    height: 120px;
+    margin: 5px 0 5px 15px;
+}
+
+.propertyList {
+    float:left;
+    position: relative;
+    width: 29%;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 130px;
+}
+
+.myProperties {
+    position: relative;
+    width:100%;
+    float: left;
+}
+.propertyDiv {
+    width: 100%;
+}
+
+.createProperty {
+    position: relative;
+    width:35%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.newPropertyDetails {
+    position: relative;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 325px;
+}
+
+.recoveredProperties {
+    display: inline-block;
+    width: 63%;
+    margin: 5px;
+    float: right;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.recoveredPropertyList {
+    width: 100%;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    float: right;
+    background-color: #333333;
+    border-color: #333333;
+    margin-bottom: 0.2%;
+}
+
+.deleteProperty {
+    float:right;
+    color: #1ed760;
+    text-decoration: none;
+}
+
+.manageProperty {
+    float:left;
+    color: #1ed760;
+    text-decoration: none;
+}
+
+.assignProperty {
+    float: left;
+    left: 22%;
+    position: relative;
+    color: #1ed760;
+    text-decoration: none;
+}
+
+
+.myProperties a:link {
+    color: #1ed760;
+}
+
+.myProperties a:visited {
+    color: #1ed760;
+}
+
+.recoveredProperties a:link {
+    color: #1ed760;
+}
+
+.recoveredProperties a:visited {
+    color: #1ed760;
+}
+
+.PropertyTenant {
+    position: relative;
+    width:100%;
+    float: left;
+}
+
+.PropertyTenantList {
+    float:left;
+    position: relative;
+    width: 21%;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 135px;
+}
+
+.propertyTenantList a:link {
+    color: #1ed760;
+}
+
+.propertyTenantList a:visited {
+    color: #1ed760;
+}
+
+.propertySelectedList {
+    float:left;
+    position: relative;
+    width: 21%;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 90px;
+}
+
+.PropertySelected {
+    width:100%;
+    float: left;
+}
+
+.InsertPropertyImage {
+    display: inline-block;
+    float:left;
+    position: relative;
+    width: 20%;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 80px;
+margin-bottom: 100px;
+}
+
+.deleteImagesEditPage {
+width: 70%;
+margin-bottom: 75px;
+float: right;
+}
+
+.RemoveImageList {
+    width: 100%;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    float: right;
+    background-color: #333333;
+    border-color: #333333;
+    margin-bottom: 0.2%;
+}
+
+.RemoveImageList a:link {
+    color: #1ed760;
+}
+
+.RemoveImageList a:visited {
+    color: #1ed760;
+}
+
+.indexPropertyDiv a:link {
+    color: #1ed760;
+}
+
+.indexPropertyDiv a:visited {
+    color: #1ed760;
+}
+.PropertyEditor {
+    width:100%;
+    float: left;
+   
+}
+
+
+.PropertyEditorForm {
+    float:left;
+    position: relative;
+    width: 40%;
+    margin: 5px;
+    background-color: #333333;
+    border-color: #333333;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    height: 500px;
+}
+
+.availablePropertyDetailList {
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #333333;
+    border-color: #333333;
+    height: 120px;
+}
+
+.availableLandlordDetails {
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #333333;
+    border-color: #333333;
+    height: 120px;
+}
+
+
+
+/**
+Alec's CSS and Media Queries
+
+ */
+
+
+#map {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: thick solid #C2C2C2;
+}
+
+
+.forumContent {
+    margin-bottom: 50px;
+}
+
+#centerDiv {
+    width: 100%;
+}
+
+#forumNotLoggedInMsg {
+    text-align: center;
+}
+
+.forumNav {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.forumNavCat {
+    width: 20%;
+    margin: auto 2px;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    border: thick solid #C3C3C3;
+    min-width: 250px;
+
+}
+
+
+.forumNavCat > h2 {
+
+    text-align: center;
+}
+
+.forumNavCat > p {
+
+    text-align: center;
+}
+
+
+.forumNavCat:hover{
+
+    background-color: #F1F1F1;
+
+}
+
+
+
+.thread {
+    background-color: #E2E2E2;
+    border: thin solid #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.threadTitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.cThreadTitle {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.postedBy {
+    font-weight: bold;
+}
+
+.forumCommentButton {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.forumEditButton {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.forumCommentButton:hover, .forumEditButton:hover {
+    background-color: #F3F3F3;
+}
+
+.forumDeleteFlagForm {
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.forumDeleteFlagForm > input[type=submit] {
+    padding: 5px;
+    color: black;
+    background-color: #F98C8C;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.forumDeleteFlagForm > input[type=submit]:hover {
+    background-color: #FFA9A9;
+    cursor: pointer;
+}
+
+#forumFlag > input[type=submit] {
+    background-color: #FFD271;
+}
+
+#forumFlag > input[type=submit]:hover {
+    background-color: #FFC851;
+    cursor: pointer;
+}
+
+#postOptions {
+    width: 100%;
+}
+
+.forumPostForm {
+    width: 40%;
+    background-color: #DEDEDE;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: thick solid #D2D2D2;
+}
+
+.forumPostForm > p {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px;
+
+}
+
+.forumPostForm > input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.forumPostForm > input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.forumPostForm > input[type=submit]{
+    border: 3px solid #555;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.forumPostForm > input[type=submit]:hover{
+    border: 3px solid #555;
+    margin: 5px;
+    padding: 15px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.forumPostForm > textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+}
+
+.comments {
+    background-color: #DBDBDB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+
+    border: thin solid #C2C2C2;
+
+}
+
+.mapMsg {
+    background-color: #DBDBDB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    border: thin solid #C2C2C2;
+}
+
+.mapMsg > p {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .forumNav {
+        flex-wrap: wrap;
+    }
+    .forumNavCat {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+    .forumPostForm {
+        width: 90%;
+    }
+
+    .comments {
+        width: 90%;
+    }
+}
+
+
+/**
+End of Alec's CSS
+ */
+
+@media screen and (max-width: 1750px) {
+    .indexPropertyDetails {
+        width: 27%;
+        height: 630px;
+    }
+}
+@media screen and (max-width: 1650px) {
+    .assignProperty {
+        display: inline-block;
+        left: 15%;
+    }
+
+}
+@media screen and (max-width: 1600px) {
+
+    .indexPropertyDetails {
+        height: 650px;
+    }
+    .propertyColumn {
+        float: left;
+        width: 100px;
+        height: 75px;
+
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .propertyList {
+        width: 29%;
+        height: 180px;
+        bottom: 0;
+    }
+
+    .deleteProperty {
+        display: inline-block;
+    }
+
+    .manageProperty {
+        display: inline-block;
+    }
+
+    .assignProperty {
+        display: inline-block;
+        left: 12%;
+    }
+
+    .indexPropertyDetails {
+        width: 40%;
+        height: 675px;
+    }
+    .myPropertyView {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .assignProperty {
+        display: inline-block;
+        left: 6%;
+    }
+    .indexPropertyDetails {
+        width: 80%;
+        height: 750px;
+    }
+    .view {
+        height: 450px;
+        width: 100%;
+    }
+    .indexPropertyImage {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .assignProperty {
+        display: inline-block;
+        left: 1%;
+    }
+    .view {
+        height: 375px;
+    }
+    .indexPropertyImage {
+        height: 375px;
+    }
+    .indexPropertyDetails {
+        height: 650px;
+    }
+    .myPropertyView {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .propertyList {
+        width: 29%;
+        height: 300px;
+    }
+    .assignProperty {
+        float: left;
+    }
+    .deleteProperty {
+        float: left;
+    }
+
+    .myPropertyView {
+     height: 325px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .view {
+        height: 250px;
+    }
+    .indexPropertyImage {
+        height: 250px;
+    }
+    .indexPropertyDetails {
+        height: 600px;
+    }
+
+    .myPropertyView {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .myPropertyView {
+        height: 150px;
+    }
+}
+
+
+
