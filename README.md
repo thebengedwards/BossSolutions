@@ -11,7 +11,7 @@
     <img src="Logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">BossSolutions</h3>
+  <h3 align="center">Boss Solutions</h3>
 
   <p align="center">
     Final Year Group Project at Northumbria University Newcastle
