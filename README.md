@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/theBenEdwards/">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">BossSolutions</h3>
